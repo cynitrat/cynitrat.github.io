@@ -7,17 +7,17 @@
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-family: /* Ubuntu, sans-serif */;
-    color: /* #xxxxxx */;
+    font-family: Georgia, 'Times New Roman', Times, serif/* Ubuntu, sans-serif */;
+    color: beige/* #xxxxxx */;
 }
 
 h1 {
-    font-size: /* x.xrem  (rem is a unit of measure) */;
-    color: /* #xxxxxx */;
+    font: size 18; /* x.xrem  (rem is a unit of measure) */;
+    color:blueviolet /* #xxxxxx */;
 }
 
 h2 {
-    font-size: /* x.xrem */;
+    font-size: 14px/* x.xrem */;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -35,7 +35,7 @@ header, footer, footer a {
 }
 
 header img {
-    width: /*  */;
+    widows: 400px; /*  */;
     height: auto;
     float: right;
 }
