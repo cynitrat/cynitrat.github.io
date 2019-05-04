@@ -12,12 +12,12 @@ body {
 }
 
 h1 {
-    font: size 16; /* x.xrem  (rem is a unit of measure) */;
+    font: 5rem; /* x.xrem  (rem is a unit of measure) */;
     color: blue/* #xxxxxx */;
 }
 
 h2 {
-    font: size 16; /* x.xrem */;
+    font: 5rem /* x.xrem */;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
