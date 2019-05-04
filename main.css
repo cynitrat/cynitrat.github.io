@@ -8,7 +8,7 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family: Georgia /* Ubuntu, sans-serif */;
-    color:whitesmoke /* #xxxxxx */;
+    color:beige /* #xxxxxx */;
 }
 
 h1 {
@@ -35,11 +35,11 @@ header, footer, footer a {
 }
 
 header img {
-    width: /*  */;
-    height: auto;
+    width: 100px/*  */;
+    height: 100px;
     float: right;
 }
 
 footer {
-    font-size: /* smaller */;
+    font-size:8px /* smaller */;
 }
