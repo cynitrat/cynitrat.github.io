@@ -36,10 +36,10 @@ header, footer, footer a {
 
 header img {
     width: 200px/*  */;
-    height: 200px;
+    height: 400px;
     float: right;
 }
 
 footer {
-    font-size:8px /* smaller */;
+    font: size 16;px /* smaller */;
 }
