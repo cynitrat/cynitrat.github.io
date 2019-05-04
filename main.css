@@ -5,19 +5,19 @@
 * { margin: 0; box-sizing: border-box; } 
 
 body { 
-    font-size: 16px; 
+    font-size:auto; 
     line-height: 32px;
     font-family: Georgia/* Ubuntu, sans-serif */;
     color: beige /* #xxxxxx */;
 }
 
 h1 {
-    font: 5rem; /* x.xrem  (rem is a unit of measure) */;
+    font:auto ; /* x.xrem  (rem is a unit of measure) */;
     color: blue/* #xxxxxx */;
 }
 
 h2 {
-    font: 5rem /* x.xrem */;
+    font:auto /* x.xrem */;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -25,7 +25,7 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 5px/* xxxpx (px = pixel is a unit of measure)  */;
+    max-width: auto/* xxxpx (px = pixel is a unit of measure)  */;
 }
 
 header, footer, footer a {
@@ -35,11 +35,11 @@ header, footer, footer a {
 }
 
 header img {
-    width: 400px /*  */;
+    width: auto /*  */;
     height: auto;
     float: right;
 }
 
 footer {
-    font-size: 10px/* smaller */;
+    font-size: size 6 /* smaller */;
 }
