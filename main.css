@@ -5,19 +5,19 @@
 * { margin: 0; box-sizing: border-box; } 
 
 body { 
-    font-size:auto; 
+    font-size: 16px; 
     line-height: 32px;
-    font-family: Georgia/* Ubuntu, sans-serif */;
-    color: beige /* #xxxxxx */;
+    font-family: /* Ubuntu, sans-serif */;
+    color: /* #xxxxxx */;
 }
 
 h1 {
-    font:auto ; /* x.xrem  (rem is a unit of measure) */;
-    color: blue/* #xxxxxx */;
+    font-size: /* x.xrem  (rem is a unit of measure) */;
+    color: /* #xxxxxx */;
 }
 
 h2 {
-    font:auto /* x.xrem */;
+    font-size: /* x.xrem */;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -25,21 +25,21 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: auto/* xxxpx (px = pixel is a unit of measure)  */;
+    max-width: /* xxxpx (px = pixel is a unit of measure)  */;
 }
 
 header, footer, footer a {
     text-align: center;
-    background-color: blueviolet /* */;
+    background-color: /* */;
     color: whitesmoke;
 }
 
 header img {
-    width: auto /*  */;
+    width: /*  */;
     height: auto;
     float: right;
 }
 
 footer {
-    font-size: size 6 /* smaller */;
+    font-size: /* smaller */;
 }
