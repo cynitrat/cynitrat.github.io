@@ -13,13 +13,13 @@ body {
 
 h1 {
     font: size 12; /* x.xrem  (rem is a unit of measure) */;
-    color: blueviolet/* #xxxxxx */;
+    color: #ffff00/* #xxxxxx */;
 }
 
 h2 {
-    font: size 12; /* x.xrem */;
+    font: size 16; /* x.xrem */;
     text-align: center;
-    border-bottom: 1px solid rgb(163, 11, 11);
+    border-bottom: 1px solid#ffd700;
 }
 
 header, main, footer {
@@ -28,10 +28,10 @@ header, main, footer {
     max-width: width 1291px; /* xxxpx (px = pixel is a unit of measure)  */;
 }
 
-header, footer, footer a {
+header, nav, footer, footer a {
     text-align: center;
-    background-color:black /* */;
-    color: blueviolet;
+    background-color:#6495ed /* */;
+    color: #ffff00;
 }
 
 header img {
