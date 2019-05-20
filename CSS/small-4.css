@@ -4,42 +4,43 @@
 /* * is a wildcard referring to all elements. */
 * { margin: center; box-sizing: border-box; } 
 
-body { 
+.css-selector {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/*body { 
     font-size: 16px; 
     line-height: 32px;
     font-family: Georgia /* Ubuntu, sans-serif */;
-    color: blue /* #xxxxxx */;
-}
+    /*color: blue /* #xxxxxx */;
 
-h1 {
+
+/*h1 {
     font: size 12; /* x.xrem  (rem is a unit of measure) */;
-    color: #ffff00/* #xxxxxx */;
-}
+    /*color: #ffff00/* #xxxxxx */;
 
-h2 {
+
+/*h2 {
     font: size 16; /* x.xrem */;
-    text-align: center;
+    /*text-align: center;
     border-bottom: 1px solid#ffd700;
-}
 
-header, main, footer {
+
+/*header, main, footer {
     margin: 15px auto;
     padding: 2px;
     max-width: width 1291px; /* xxxpx (px = pixel is a unit of measure)  */;
-}
 
-header, nav, footer, footer a {
+/*header, nav, footer, footer a {
     text-align: center;
     background-color:#6495ed /* */;
-    color: #ffff00;
-}
+    /*color: #ffff00;
 
-header img {
+/*header img {
     width: 100px/*  */;
-    height: 100px;
+    /*height: 100px;
     float: left;
-}
 
-footer {
+
+/*footer {
     font: 12px /* smaller */;
-}
