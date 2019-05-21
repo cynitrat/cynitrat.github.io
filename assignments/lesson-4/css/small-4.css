@@ -2,7 +2,7 @@
 /* You may use #HEX or color names */
 
 /* * is a wildcard referring to all elements. */
-* { margin: center; box-sizing: border-box; } 
+* { scroll-margin: center; box-sizing: border-box; } 
 
 .css-selector {
     font-family: Baskerville Old Face, Georgia, Times, 'Georgia';
@@ -30,7 +30,7 @@ h2 {
 
 
 header, main, footer {
-    margin: 15px auto;
+    float: center
     padding: 2px;
     max-width: width 1291px; /* xxxpx (px = pixel is a unit of measure)  */;
     }
