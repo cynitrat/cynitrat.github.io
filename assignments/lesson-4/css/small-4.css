@@ -15,38 +15,9 @@
     color: blue /* #xxxxxx */;
 }
 
-
- {
-    font: size 12; /* x.xrem  (rem is a unit of measure) */;
-    color: #ffff00/* #xxxxxx */;
- }
-
-
-h2 {
-    font: size 16; /* x.xrem */;
-    text-align: center;
-    border-bottom: 1px solid#ffd700;
-}
-
-
-header, main, footer {
-    float: center
-    padding: 2px;
-    max-width: width 1291px; /* xxxpx (px = pixel is a unit of measure)  */;
+article, aside, figure, footer, header, main, nav, section {
+    display: block;
     }
-
-header, nav, article, footer, footer a {
-    text-align: center;
-    background-color:#6495ed /* */;
-    color: #ffff00;
-}
-
-header img {
-    width: 100px/*  */;
-    height: 100px;
-    float: left;
-}
-
 
 footer {
     font: 12px /* smaller */;
