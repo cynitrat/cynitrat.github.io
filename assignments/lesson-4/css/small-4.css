@@ -5,17 +5,19 @@
 * { scroll-margin: center; box-sizing: border-box; } 
 
 .css-selector {
-    font-family: 'AR Julian','Angsana UPC','Baskerville Old Face', 'Georgia';
-    font-size: ;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
     color:  #ffff00,#00bfff;
-    background-color: ;
+    background-color: #6495ed;
 }
 main {max-width:820px;margin:0 auto;}
 h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
 
-.herodiv {margin: 10px auto;position: relative;}
+.city {margin: 10px auto;position: relative;}
 
-.stats {
+.third {
 	position: absolute;
 	top: 25px;
 	right: 50px;
@@ -24,14 +26,25 @@ h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #fff;
 }
+.footinfo {
 
+}
+.wayfinding {
+
+}
+section {
+
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+head {
+
+}
 header {
-    font-family: 'AR Julian';
+    font-family: 'Lobster', cursive;
     font-size: 24px;
     color: #00bfff;
     background-color: #daa520;
@@ -40,12 +53,12 @@ header {
 nav { 
     font-size: 24px; 
     line-height: 32px;
-    font-family: 'Angsana UPC' /* Ubuntu, sans-serif */;
+    font-family: 'Merriweather', serif; /* Ubuntu, sans-serif */;
     color: #ffff00/* #xxxxxx */;
     background-color: #6495ed
 }
 h1 {
-    font-family: 'baskerville old face';
+    font-family: 'Merriweather', serif;
     font-size: 16px;
     background-color: #6495ed;
     color: #ffff00;
@@ -53,34 +66,37 @@ h1 {
 }
 
  h2 {
-    font-family: 'baskerville old face';
+    font-family: 'Merriweather', serif;
     font-size: 16px;
     background-color: #6495ed;
     color: #ffff00
 
  }
 h3 {
-    font-family: 'baskerville old face';
+    font-family: 'Merriweather', serif;
     font-size: 16px;
     background-color: #6495ed;
     color: #ffff00;
 }
 p {
-    font-family: 'Georgia';
+    font-family: 'Merriweather', serif;
     font-size: 14px;
     background-color: #6495ed;
     color: #ffff00;
 
 }
 body {
-    font-family: 'baskervill old face';
+    font-family: 'Playfair Display', serif;
     font-size: 16px;
     background-color: #6495ed;
     color: #ffff00;
 
 }
+article {
+
+}
 footer {
-    font-family: 'baskerville old face';
+    font-family: sans-serif;
     font-size:  12px /* smaller */;
     background-color: #6495ed;
     color: #ffff00
