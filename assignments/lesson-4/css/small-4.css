@@ -5,23 +5,83 @@
 * { scroll-margin: center; box-sizing: border-box; } 
 
 .css-selector {
-    font-family: Baskerville Old Face, Georgia, Times, 'Georgia';
+    font-family: 'AR Julian','Angsana UPC','Baskerville Old Face', 'Georgia';
+    font-size: ;
+    color:  #ffff00,#00bfff;
+    background-color: 
 }
-
-/body { 
-    font-size: 16px; 
+header {
+    font-family: 'AR Julian';
+    font-size: 24px;
+    color: #00bfff;
+    background-color: #daa520;
+    border: #ffd700
+}
+nav { 
+    font-size: 24px; 
     line-height: 32px;
-    font-family: Georgia /* Ubuntu, sans-serif */;
-    color: blue /* #xxxxxx */;
+    font-family: 'Angsana UPC' /* Ubuntu, sans-serif */;
+    color: #ffff00/* #xxxxxx */;
+    background-color: #6495ed
+}
+h1 {
+    font-family: 'baskerville old face';
+    font-size: 16px;
+    background-color: #6495ed;
+    color: #ffff00;
+
 }
 
-article, aside, figure, footer, header, main, nav, section {
-    display: block;
-    }
+ h2 {
+    font-family: 'baskerville old face';
+    font-size: 16px;
+    background-color: #6495ed;
+    color: #ffff00
 
+ }
+h3 {
+    font-family: 'baskerville old face';
+    font-size: 16px;
+    background-color: #6495ed;
+    color: #ffff00;
+}
+p {
+    font-family: 'Georgia';
+    font-size: 14px;
+    background-color: #6495ed;
+    color: #ffff00;
+
+}
+body {
+    font-family: 'baskervill old face';
+    font-size: 16px;
+    background-color: #6495ed;
+    color: #ffff00;
+
+}
 footer {
-    font: 12px /* smaller */;
+    font-family: 'baskerville old face';
+    font-size:  12px /* smaller */;
+    background-color: #6495ed;
+    color: #ffff00
+    
+
 }
+main {max-width:820px;margin:0 auto;}
+h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
+
+.herodiv {margin: 10px auto;position: relative;}
+
+.stats {
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	background: radial-gradient(#eee, #4567aa;);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #fff;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
