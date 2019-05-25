@@ -11,9 +11,9 @@ body {
     color: blue /* #xxxxxx */;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: 16px;
+    margin: 1.25rem;
+    padding: .5rem;
   }
 
 }
