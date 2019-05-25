@@ -10,16 +10,6 @@ body {
     font-family: Georgia /* Ubuntu, sans-serif */;
     color: blue /* #xxxxxx */;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 60px;
-  }
-
-li a {
-    display: block;
-  }
 
 }
 main {
