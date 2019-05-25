@@ -2,7 +2,7 @@
 /* You may use #HEX or color names */
 
 /* * is a wildcard referring to all elements. */
-* { margin: 0; box-sizing: border-box; } 
+{margin: 0; box-sizing: border-box; } 
 
 body { 
     font-size: 16px; 
@@ -11,7 +11,6 @@ body {
     color: blue /* #xxxxxx */;
 }
 
-}
 main {
     font-size: 16px; 
     line-height: 32px;
@@ -34,7 +33,7 @@ h2 {
 header, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width:auto /* xxxpx (px = pixel is a unit of measure)  */;
+    max-width: 12px /* xxxpx (px = pixel is a unit of measure)  */;
 }
 
 header, footer, footer a {
