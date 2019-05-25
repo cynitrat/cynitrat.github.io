@@ -10,6 +10,11 @@ body {
     font-family: Georgia /* Ubuntu, sans-serif */;
     color: blue /* #xxxxxx */;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
 h1 {
     font: size 12; /* x.xrem  (rem is a unit of measure) */;
