@@ -10,6 +10,26 @@
     color:  #ffff00,#00bfff;
     background-color: 
 }
+main {max-width:820px;margin:0 auto;}
+h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
+
+.herodiv {margin: 10px auto;position: relative;}
+
+.stats {
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	background: radial-gradient(#6495ed);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 header {
     font-family: 'AR Julian';
     font-size: 24px;
@@ -64,27 +84,5 @@ footer {
     font-size:  12px /* smaller */;
     background-color: #6495ed;
     color: #ffff00
-    
 
 }
-
-main {max-width:820px;margin:0 auto;}
-h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
-
-.herodiv {margin: 10px auto;position: relative;}
-
-.stats {
-	position: absolute;
-	top: 25px;
-	right: 50px;
-	background: radial-gradient(#eee, #4567aa;);
-	border: 1px solid #000;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #fff;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
