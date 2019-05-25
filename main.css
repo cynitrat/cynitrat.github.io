@@ -18,6 +18,26 @@ main {
     color: blue /* #xxxxxx */;
 
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #7c16cf;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: rgb(59, 14, 182);
+    color: white;
+  }
 
 h1 {
     font: size 12; /* x.xrem  (rem is a unit of measure) */;
