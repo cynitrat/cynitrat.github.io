@@ -16,6 +16,15 @@ ul {
     padding: 0;
   }
 
+}
+main {
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: Georgia /* Ubuntu, sans-serif */;
+    color: blue /* #xxxxxx */;
+
+}
+
 h1 {
     font: size 12; /* x.xrem  (rem is a unit of measure) */;
     color: blueviolet/* #xxxxxx */;
