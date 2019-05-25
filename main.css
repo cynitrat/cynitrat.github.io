@@ -51,8 +51,8 @@ h2 {
 }
 
 header, footer {
-    margin: 1.25rem ;
-    padding: .5rem;
+    margin: auto ;
+    padding: auto;
     max-width: 12px /* xxxpx (px = pixel is a unit of measure)  */;
 }
 
