@@ -13,9 +13,9 @@ li a { display: inline-flex; color: #7c16cf; padding: 16px; text-decoration: non
   /* Change the link color on hover */
 li a:hover { background-color: rgb(59, 14, 182); color: white;}
 
-h1 { font: .5rem /* x.xrem  (rem is a unit of measure) */; color: blueviolet/* #xxxxxx */;}
+h1 { font: 1.5rem /* x.xrem  (rem is a unit of measure) */; color: blueviolet/* #xxxxxx */;}
 
-h2 { font: .5rem /* x.xrem */; text-align: center; border-bottom: 1px solid rgb(163, 11, 11);}
+h2 { font: 1.5rem /* x.xrem */; text-align: center; border-bottom: 1px solid rgb(163, 11, 11);}
 
 header, footer, footer a { text-align: center; background-color:black /* */; color: blueviolet;  margin: 1.25rem auto; padding: .5rem; max-width: 100px /* xxxpx (px = pixel is a unit of measure)  */;}
 
