@@ -17,7 +17,7 @@ h1 { font: 12px/* x.xrem  (rem is a unit of measure) */; color: blue/* #xxxxxx *
 h2 { text-align: center; border-bottom: 1px solid rgb(163, 11, 11);}
 
 header, footer, footer a { text-align: center; background-color:black /* */; color: blue;}
-header, main, footer { margin: 1.25rem auto; padding: .5rem; max-width: 200px /* xxxpx (px = pixel is a unit of measure)  */;}
+header, main, footer { margin: 1.25rem auto; padding: .5rem; max-width: 500px /* xxxpx (px = pixel is a unit of measure)  */;}
 
 header img { width: 100px/*  */; height: auto; float: right;}
 
