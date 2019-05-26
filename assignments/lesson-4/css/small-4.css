@@ -4,102 +4,26 @@
 /* * is a wildcard referring to all elements. */
 * { scroll-margin: center; box-sizing: border-box; } 
 
-.css-selector {
-    font-family: 'Lobster', cursive;
-    font-family: 'Merriweather', serif;
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    color:  #ffff00,#00bfff;
-    background-color: #6495ed;
-}
+.css-selector { font-family: 'Lobster', cursive;  font-size: 20px; color:  #ffff00,#00bfff; background-color: #6495ed;}
+.css-selector2 {font-family: 'Merriweather', serif; font-size: 20px; color:  #ffff00,#00bfff; background-color: #6495ed;}
+.css-selector3 {font-family: 'Playfair Display', serif; font-size: 20px; color:  #ffff00,#00bfff; background-color: #6495ed;}
 main {max-width:820px;margin:0 auto;}
 h2 {text-align: center;font-size:2rem;text-shadow:3px 3px 5px #777;}
-
-.city {margin: 10px auto;position: relative;}
-
-.third {
-	position: absolute;
-	top: 25px;
-	right: 50px;
-	background: radial-gradient(#eee, #4567aa;);
-	border: 1px solid #000;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #fff;
-}
-.footinfo {
-
-}
-.wayfinding {
-
-}
-section {
-
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-head {
-
-}
-header {
-    font-family: 'Lobster', cursive;
-    font-size: 24px;
-    color: #00bfff;
-    background-color: #daa520;
-    border: #ffd700
-}
-nav { 
-    font-size: 24px; 
-    line-height: 32px;
-    font-family: 'Merriweather', serif; /* Ubuntu, sans-serif */;
-    color: #ffff00/* #xxxxxx */;
-    background-color: #6495ed
-}
-h1 {
-    font-family: 'Merriweather', serif;
-    font-size: 16px;
-    background-color: #6495ed;
-    color: #ffff00;
-
-}
-
- h2 {
-    font-family: 'Merriweather', serif;
-    font-size: 16px;
-    background-color: #6495ed;
-    color: #ffff00
-
- }
-h3 {
-    font-family: 'Merriweather', serif;
-    font-size: 16px;
-    background-color: #6495ed;
-    color: #ffff00;
-}
-p {
-    font-family: 'Merriweather', serif;
-    font-size: 14px;
-    background-color: #6495ed;
-    color: #ffff00;
-
-}
-body {
-    font-family: 'Playfair Display', serif;
-    font-size: 16px;
-    background-color: #6495ed;
-    color: #ffff00;
-
-}
-article {
-
-}
-footer {
-    font-family: sans-serif;
-    font-size:  12px /* smaller */;
-    background-color: #6495ed;
-    color: #ffff00
-    
-
-}
+.city {margin: 10px auto; position: relative;}
+.third { position: absolute; top: 25px; right: 50px; background: ; border: 1px solid #000; padding: 1.5rem; box-shadow: 0 0 30px #fff;}
+.footinfo {}
+.wayfinding {}
+section {}
+*{box-sizing: border-box}
+.motto > div {border-radius: ;}
+ul {list-style-type: none; margin: 0; padding: 0;}
+head {font-family: 'Lobster', cursive;}
+header {font-family: 'Lobster', cursive; font-size: 24px; color: #00bfff; background-color: #daa520; border: #ffd700 }
+nav { font-size: 24px; line-height: 32px; font-family: 'Merriweather', serif; /* Ubuntu, sans-serif */; color: #ffff00/* #xxxxxx */; background-color: #6495ed;}
+h1 { font-family: 'Merriweather', serif; font-size: 16px; background-color: #6495ed; color: #ffff00;}
+h2 {font-family: 'Merriweather', serif; font-size: 16px; background-color: #6495ed; color: #ffff00;}
+h3 { font-family: 'Merriweather', serif; font-size: 16px; background-color: #6495ed; color: #ffff00;}
+p { font-family: 'Merriweather', serif; font-size: 14px; background-color: #6495ed; color: #ffff00;}
+body { font-family: 'Playfair Display', serif; font-size: 16px; background-color: #6495ed; color: #ffff00;}
+article {font-display: 'Merriweather', serif; font-size: 20px; background-color: #6495ed; color:#ffff00;}
+footer { font-family: sans-serif; font-size:  12px /* smaller */; background-color: #6495ed; color: #ffff00;}
