@@ -8,17 +8,17 @@ body { font-size: 16px; line-height: 32px; font-family: Georgia /* Ubuntu, sans-
 
 main { font-size: 16px; line-height: 32px; font-family: Georgia /* Ubuntu, sans-serif */; color: blue /* #xxxxxx */;}
 ul { list-style-type: 1; margin: 0; padding: 0; width: 200px; background-color: #f1f1f1;}
-li a { display: inline-block; color: #7c16cf; padding: 16px; text-decoration: none;}
+li a { display: inline-flex; color: #7c16cf; padding: 16px; text-decoration: none;}
   
   /* Change the link color on hover */
 li a:hover { background-color: rgb(59, 14, 182); color: white;}
 
-h1 { font: 2.5rem /* x.xrem  (rem is a unit of measure) */; color: blueviolet/* #xxxxxx */;}
+h1 { font: .5rem /* x.xrem  (rem is a unit of measure) */; color: blueviolet/* #xxxxxx */;}
 
-h2 { font: 2.5rem /* x.xrem */; text-align: center; border-bottom: 1px solid rgb(163, 11, 11);}
+h2 { font: .5rem /* x.xrem */; text-align: center; border-bottom: 1px solid rgb(163, 11, 11);}
 
-header, footer, footer a { text-align: center; background-color:black /* */; color: blueviolet;  margin: 1px; padding: 1px; max-width: 100px /* xxxpx (px = pixel is a unit of measure)  */;}
+header, footer, footer a { text-align: center; background-color:black /* */; color: blueviolet;  margin: 1.25rem auto; padding: .5rem; max-width: 100px /* xxxpx (px = pixel is a unit of measure)  */;}
 
-header img { width: 200px/*  */; height: 200px; float: right;}
+header img { width: 100px/*  */; height: auto float: right;}
 
 footer { font: 12px /* smaller */;}
