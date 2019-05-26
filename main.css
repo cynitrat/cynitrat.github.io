@@ -7,7 +7,7 @@
 body { font-size: 16px; line-height: 32px; font-family: Georgia /* Ubuntu, sans-serif */; color: blue /* #xxxxxx */;}
 
 ul { list-style-type: circle; margin: 0; padding: 0; width: 100px; background-color: #f1f1f1;}
-li a { display: inline-block; color: #7c16cf; padding: 16px; text-decoration: none;}
+li a { display: inline; color: #7c16cf; padding: 16px; text-decoration: none;}
   
   /* Change the link color on hover */
 li a:hover { background-color: rgb(59, 14, 182); color: white;}
