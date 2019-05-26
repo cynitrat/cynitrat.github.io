@@ -19,6 +19,6 @@ h2 { font: .75rem/* x.xrem */; text-align: center; border-bottom: 1px solid rgb(
 header, footer, footer a { text-align: center; background-color:black /* */; color: blueviolet;}
 header, main, footer { margin: 1.25rem auto; padding: .5rem; max-width: 100px /* xxxpx (px = pixel is a unit of measure)  */;}
 
-header img { width: 100px/*  */; height:auto float: right;}
+header img { width: 100px/*  */; height:100px float: right;}
 
 footer { font: 12px /* smaller */;}
