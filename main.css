@@ -4,70 +4,21 @@
 /* * is a wildcard referring to all elements. */
 *{margin: 0; box-sizing: border-box; } 
 
-body { 
-    font-size: 16px; 
-    line-height: 32px;
-    font-family: Georgia /* Ubuntu, sans-serif */;
-    color: blue /* #xxxxxx */;
-}
+body { font-size: 16px; line-height: 32px; font-family: Georgia /* Ubuntu, sans-serif */; color: blue /* #xxxxxx */;}
 
-main {
-    font-size: 16px; 
-    line-height: 32px;
-    font-family: Georgia /* Ubuntu, sans-serif */;
-    color: blue /* #xxxxxx */;
-
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-  }
-  
-  li a {
-    display: ;
-    color: #7c16cf;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
+main { font-size: 16px; line-height: 32px; font-family: Georgia /* Ubuntu, sans-serif */; color: blue /* #xxxxxx */;}
+ul { list-style-type: 1; margin: 0; padding: 0; width: 200px; background-color: #f1f1f1;}
+li a { display: inline-block; color: #7c16cf; padding: 8px 16px; text-decoration: none;}
   
   /* Change the link color on hover */
-  li a:hover {
-    background-color: rgb(59, 14, 182);
-    color: white;
-  }
+li a:hover { background-color: rgb(59, 14, 182); color: white;}
 
-h1 {
-    font: size 12; /* x.xrem  (rem is a unit of measure) */;
-    color: blueviolet/* #xxxxxx */;
-}
+h1 { font: size 12; /* x.xrem  (rem is a unit of measure) */; color: blueviolet/* #xxxxxx */}
 
-h2 {
-    font: size 12; /* x.xrem */;
-    text-align: center;
-    border-bottom: 1px solid rgb(163, 11, 11);
-}
+h2 { font: size 12; /* x.xrem */; text-align: center; border-bottom: 1px solid rgb(163, 11, 11);}
 
-header, footer {
-    margin: .5em;
-    padding: 1.5em;
-    max-width: auto /* xxxpx (px = pixel is a unit of measure)  */;
-}
+header, footer, footer a { text-align: center; background-color:black /* */; color: blueviolet;  margin: .5em; padding: 1.5em; max-width: 100px /* xxxpx (px = pixel is a unit of measure)  */; }
 
-header, footer, footer a {
-    text-align: center;
-    background-color:black /* */;
-    color: blueviolet;
-}
+header img { width: 100px/*  */; height: 100px; float: right;}
 
-header img {
-    width: 100px/*  */;
-    height: 100px;
-    float: right;
-}
-
-footer {
-    font: 12px /* smaller */;
-}
+footer { font: 12px /* smaller */;}
